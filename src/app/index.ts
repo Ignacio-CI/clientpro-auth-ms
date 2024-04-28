@@ -3,6 +3,7 @@ import * as express from 'express';
 import helmet from 'helmet';
 import * as cors from "cors";
 import * as compression from "compression";
+import { logger } from './libs/logger';
 
 const app = express();
 
@@ -17,12 +18,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
+    logger.info(`[EXPRESS] path: ${req.path}, req: ${req.method}, ip: ${req.ip}`)
     res.json({
         status: 200,
         message: "Hello world!"
-    })
+    });
 });
 
 app.listen(port, host, () => {
-    console.log(`[EXPRESS] Server listening on http://${host}/${port}/`)
-})
+    logger.info(`[EXPRESS] Server listening on http://${host}/${port}/`);
+});
