@@ -6,3 +6,49 @@
 {"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-04-28 22:26:44"}
 {"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 16:49:26"}
 {"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 16:49:26"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:44:42"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:44:42"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:45:21"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:45:21"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:51:41"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:51:41"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:51:59"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:51:59"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:53:42"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:53:42"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 20:56:00"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 20:56:00"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:47:55"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:47:55"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:48:36"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:48:36"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:50:12"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:50:12"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:51:00"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:51:00"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:51:14"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:51:14"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 22:58:17"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 22:58:17"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:01:10"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 23:01:10"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:01:22"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 23:01:22"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:04:21"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: TypeError: app[route.method] is not a function","timestamp":"2024-05-01 23:04:21"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:05:29"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:05:29"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:06:22"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:06:22"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:07:38"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:07:38"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:08:44"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:08:44"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/:GET","timestamp":"2024-05-01 23:09:15"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/:POST","timestamp":"2024-05-01 23:12:11"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:13:55"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:13:56"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/:POST","timestamp":"2024-05-01 23:14:33"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 23:15:07"}
+{"level":"info","message":"[EXPRESS] Server running at http://127.0.0.1:3002/","timestamp":"2024-05-01 23:15:07"}
+{"level":"info","message":"[EXPRESS] Connection received: 127.0.0.1:/:POST","timestamp":"2024-05-01 23:15:14"}
