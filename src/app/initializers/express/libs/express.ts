@@ -3,7 +3,7 @@ export default function createServer({ app, json, urlencoded, cors, helmet, comp
 
     function server({ host, port, routes }) {
         app.use(helmet());
-        app.options('*', { credentials: true, origin: true });
+        app.options('*', cors({ credentials: true, origin: true }));
         app.use(cors());
         app.use(compression());
         app.use(json());
