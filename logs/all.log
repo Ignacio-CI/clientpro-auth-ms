@@ -4,3 +4,5 @@
 {"level":"info","message":"[EXPRESS] path: /, req: GET, ip: 127.0.0.1","service":"logger","timestamp":"2024-04-28 19:54:50"}
 {"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-04-28 22:26:44"}
 {"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-04-28 22:26:44"}
+{"level":"info","message":"[ClientPro-Auth-MS] Bootstraping Microservice","timestamp":"2024-05-01 16:49:26"}
+{"level":"error","message":"[ClientPro-Auth-MS] Caught exeption: Error: Route.options() requires a callback function but got a [object Object]","timestamp":"2024-05-01 16:49:26"}
