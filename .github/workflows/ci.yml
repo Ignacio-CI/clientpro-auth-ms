@@ -29,7 +29,7 @@ jobs:
     - run: npm ci
     - run: npm run build --if-present
     - run: |
-        echo "APP_NAME={{ variables.APP_NAME }}" >> $GITHUB.ENV
-        echo "NODE_HOSTNAME={{ variables.NODE_HOSTNAME }}" >> $GITHUB.ENV
-        echo "NODE_PORT={{ variables.NODE_PORT }}" >> $GITHUB.ENV      
+        echo "APP_NAME={{ env.APP_NAME }}" >> $GITHUB.ENV
+        echo "NODE_HOSTNAME={{ env.NODE_HOSTNAME }}" >> $GITHUB.ENV
+        echo "NODE_PORT={{ env.NODE_PORT }}" >> $GITHUB.ENV      
     - run: pm2 reload 0
