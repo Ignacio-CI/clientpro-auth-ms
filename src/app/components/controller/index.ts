@@ -1,6 +1,6 @@
 import { logger } from "../../libs/logger";
 
-const get = (req, res) => res.json({ data: "Hello World!" });
+const get = (req, res) => res.json({ data: "Hello World!!" });
 const post = (req, res) => res.json({ params: req.body });
 
 export const routes = [
