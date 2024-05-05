@@ -27,9 +27,15 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
-    - run: |
-        echo "APP_NAME=${{ vars.APP_NAME }}"
-        echo "NODE_HOSTNAME=${{ vars.NODE_HOSTNAME }}"
-        echo "NODE_PORT=${{ vars.NODE_PORT }}"     
+    - name: Environment Variables
+      run: |
+        echo "APP_NAME=${{ secrets.APP_NAME }}" >> $GITHUB_ENV
+        echo "NODE_HOSTNAME=${{ secrets.NODE_HOSTNAME }}" >> $GITHUB_ENV
+        echo "NODE_PORT=${{ secrets.NODE_PORT }}" >> $GITHUB_ENV
+    - name: Create .env file
+      run: |
+        echo "APP_NAME=${{ vars.APP_NAME }}" >> .env
+        echo "NODE_HOSTNAME=${{ vars.NODE_HOSTNAME }}" >> .env
+        echo "NODE_PORT=${{ vars.NODE_PORT }}" >> .env
     - run: npm run build --if-present
     - run: pm2 reload 0
