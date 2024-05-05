@@ -28,8 +28,8 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: |
-        echo "APP_NAME=${{ env.APP_NAME }}" >> $GITHUB.ENV
-        echo "NODE_HOSTNAME=${{ env.NODE_HOSTNAME }}" >> $GITHUB.ENV
-        echo "NODE_PORT=${{ env.NODE_PORT }}" >> $GITHUB.ENV      
+        echo "APP_NAME=${{ vars.APP_NAME }}"
+        echo "NODE_HOSTNAME=${{ vars.NODE_HOSTNAME }}"
+        echo "NODE_PORT=${{ vars.NODE_PORT }}"     
     - run: npm run build --if-present
     - run: pm2 reload 0
